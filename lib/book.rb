@@ -10,12 +10,17 @@
 
 class Book 
   
-  def initialize(title)
+  def initialize(title, author)
     @title = title
+    @author = author
   end
   
   def title 
     @title
+  end
+  
+  def author=(book_author)
+    @author
   end
   
 end
