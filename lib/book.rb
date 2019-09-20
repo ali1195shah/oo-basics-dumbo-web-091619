@@ -31,7 +31,7 @@ class Book
   end
   
   def turn_page
-    @turn_page
+    puts 
   end
   
   def author=(book_author)
