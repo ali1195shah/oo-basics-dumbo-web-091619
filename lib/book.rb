@@ -30,6 +30,10 @@ class Book
     @genre
   end
   
+  def turn_page
+    @turn_page
+  end
+  
   def author=(book_author)
     @author = book_author
   end
